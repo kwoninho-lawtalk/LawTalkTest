@@ -1,0 +1,13 @@
+﻿<Window x:Class="LawTalkTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="23" Margin="176,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPass" HorizontalAlignment="Left" Height="23" Margin="176,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="138,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.615,0.577"/>
+        <Label Content="비밀번호" HorizontalAlignment="Left" Margin="119,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.641,2.231"/>
+        <Button Content="로그인" HorizontalAlignment="Left" Margin="301,74,0,0" VerticalAlignment="Top" Width="75" Height="51" Click="Button_Click"/>
+
+    </Grid>
+</Window>
